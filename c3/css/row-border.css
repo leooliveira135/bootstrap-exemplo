@@ -1,0 +1,62 @@
+.row div[class^="col-"] {
+    background: #fafafa;
+    border: 1px solid #ccc;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.row .row > div[class^="col-"] {
+    background: #f1f1f1;
+    border: 1px solid #black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+img {
+    display: block;
+    muto;
+}
+
+h1,
+.h1 {
+    font-size: 36px;
+}
+
+h2,
+.h2 {
+    font-size: 30px;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+}
+
+h4,
+.h4 {
+    font-size: 18px;
+}
+
+h5,
+.h5 {
+    font-size: 14px;
+}
+
+h6,
+.h6 {
+    font-size: 12px;
+}

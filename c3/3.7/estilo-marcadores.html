@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estas 3 meta tags devem obrigatoriamente ser as primeiras na seção head -->
+    <!-- As demais devem vir depois delas -->
+    <title>Template mínimo para uso do Bootstrap</title>
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- CSS do Bootstrap -->
+    <!-- HTML5 shim and Respond.js para suporte dos elementos HTML5 e das media queries ao IE8 -->
+    <!-- Atenção: Respond.js não funciona em páginas carregadas com o uso do protocolo file:// -->
+    <!-- [if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="../c3/css/row-border.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2>Marcadores fechar e dropdown</h2>
+    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <span class="caret"></span>
+    <hr>
+    <h2>Flutuar</h2>
+    <p class="pull-left">Parágrafo à esquerda</p>
+    <p class="pull-right">Parágrafo à direita</p>
+    <br>
+    <hr>
+    <h2>Clearfix</h2>
+    <div class="clearfix">
+        <p class="pull-left">Parágrafo à esquerda</p>
+        <p class="pull-right">Parágrafo à direita</p>
+        <br>
+        <hr>
+        <h2 class="center-block" style="width:50%">Centralizar na horizontal</h2>
+        <p class="center-block" style="width:50%">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id mauris elementum purus egestas semper. In eleifend est eu lorem faucibus, a hendrerit sapien semper. Cras quam lacus, tincidunt at ultricies vitae, dapibus eget lacus. Proin eleifend, risus venenatis fringilla condimentum, elit sapien efficitur purus, porta placerat velit mi in nunc. Quisque accumsan facilisis vulputate. In dignissim nunc ac orci varius, dapibus condimentum lectus faucibus. Nulla sed dignissim sem, quis pharetra nisi. Suspendisse in neque velit. Maecenas in laoreet metus. Phasellus mattis turpis a leo pretium, sit amet aliquam purus ultrices.
+        </p>
+    </div>
+    <br>
+    <hr>
+    <h2>Controlar a visibilidade de conteúdos</h2>
+    <span class="hidden-xs">Esconde em x-small</span>
+    <span class="visible-xs-block">Visível em x-small</span>
+    <span class="hidden-sm">Esconde em small</span>
+    <span class="visible-sm-block">Visível em small</span>
+    <span class="hidden-md">Esconde em medium</span>
+    <span class="visible-md-block">Visível em medium</span>
+    <span class="hidden-lg">Esconde em large</span>
+    <span class="visible-lg-block">Visível em large</span>
+    <!-- JQuery (caso se use plugins JavaScript do Bootstrap) -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //fallback para jQuery
+        //<![CDATA[
+        (window.jQuery) || document.write('<script type="text/javascript" src="bootstrap/js/jquery.min.js"><\/script>'); //]]>
+    </script>
+    <script type="text/javascript">
+        <!-- Bootlint para informar bugs -->
+        javascript: (function () {
+            var s = document.createElement("script");
+            s.onload = function () {
+                bootlint.showLintReportForCurrentDocument([]);
+            };
+            s.src = "https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";
+            document.body.appendChild(s)
+        })();
+    </script>
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
