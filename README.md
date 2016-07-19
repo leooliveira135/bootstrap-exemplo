@@ -1,0 +1,1 @@
+Esse repositório é baseado nas premissas do livro Bootstrap maujor da Novatec.
