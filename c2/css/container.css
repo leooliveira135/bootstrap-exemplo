@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font: 100% sans-serif;
+}
+
+h1 {
+    font-size: 160%;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    background: #b5b5b5;
+}
+
+.row {
+    margin-left: -20px;
+}
+
+.row:after {
+    /*
+                técnica moderna para clear floats
+            */
+    content: "";
+    display: table;
+    line-height: 0;
+    clear: both;
+}
+
+[class*="span"] {
+    float: left;
+    margin-left: 20px;
+    background: #d5d5d5;
+}
