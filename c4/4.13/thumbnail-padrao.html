@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estas 3 meta tags devem obrigatoriamente ser as primeiras na seção head -->
+    <!-- As demais devem vir depois delas -->
+    <title>Template mínimo para uso do Bootstrap</title>
+    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- CSS do Bootstrap -->
+    <!-- HTML5 shim and Respond.js para suporte dos elementos HTML5 e das media queries ao IE8 -->
+    <!-- Atenção: Respond.js não funciona em páginas carregadas com o uso do protocolo file:// -->
+    <!-- [if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="../css/componentes.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="col-md-3 col-sm-6">
+        <a href="/img/1296033412aC0-5P62.jpg" class="thumbnail"><img src="/img/1296033412aC0-5P62.jpg" alt="pinguim"></a>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <a href="/img/formula%20one%20williams%20nelson%20piquet%20nigel%20mansell%201600x1056%20wallpaper_wallpaperswa.com_1.jpg" class="thumbnail"><img src="/img/formula%20one%20williams%20nelson%20piquet%20nigel%20mansell%201600x1056%20wallpaper_wallpaperswa.com_1.jpg" alt="williams"></a>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <a href="/img/topo.jpg" class="thumbnail"><img src="/img/topo.jpg" alt="euro"></a>
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <a href="/img/wp_judas_priest_sad_wings_of_destiny_1680x1050px_100424225823_2.jpg" class="thumbnail"><img src="/img/wp_judas_priest_sad_wings_of_destiny_1680x1050px_100424225823_2.jpg" alt="heavy metal"></a>
+    </div>
+    <!-- JQuery (caso se use plugins JavaScript do Bootstrap) -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //fallback para jQuery
+        //<![CDATA[
+        (window.jQuery) || document.write('<script type="text/javascript" src="bootstrap/js/jquery.min.js"><\/script>'); //]]>
+    </script>
+    <script type="text/javascript">
+        <!-- Bootlint para informar bugs -->
+        javascript: (function () {
+            var s = document.createElement("script");
+            s.onload = function () {
+                bootlint.showLintReportForCurrentDocument([]);
+            };
+            s.src = "https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";
+            document.body.appendChild(s)
+        })();
+    </script>
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
