@@ -19,10 +19,15 @@
 </head>
 
 <body>
-    <div class="alert alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert">x</button>
-        <h4>Alerta!</h4>
-        <p>Você têm certeza que deseja deletar o arquivo?</p>
+    <a data-toggle="colapse" href="#colapseUm">Maçã</a>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#colapseUm" aria-expanded="false">Maçã</button>
+    <div id="colapseUm" class="collapse">
+        <div class="well">
+            <p>
+                <img src="../../img/maca.jpg" alt="maçã" class="pull-left">A maçã...
+            </p>
+            <small>Fonte: wikipedia</small>
+        </div>
     </div>
     <!-- JQuery (caso se use plugins JavaScript do Bootstrap) -->
     <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
@@ -51,10 +56,6 @@
 
     <!-- Bootstrap -->
     <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js">
-    </script>
-    <script type="text/javascript">
-        $('alert').alert();
-        $('alert').alert('close');
     </script>
 </body>
 

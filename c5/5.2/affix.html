@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estas 3 meta tags devem obrigatoriamente ser as primeiras na seção head -->
+    <!-- As demais devem vir depois delas -->
+    <title>Template mínimo para uso do Bootstrap</title>
+    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- CSS do Bootstrap -->
+    <!-- HTML5 shim and Respond.js para suporte dos elementos HTML5 e das media queries ao IE8 -->
+    <!-- Atenção: Respond.js não funciona em páginas carregadas com o uso do protocolo file:// -->
+    <!-- [if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="265">
+        <li><a href="#tp">Topo</a></li>
+        <li><a href="#um">Link 1</a></li>
+        <li><a href="#dois">Link 2</a></li>
+        <li><a href="#tres">Link 3</a></li>
+        <li><a href="#quatro">Link 4</a></li>
+        <li><a href="#cinco">Link 5</a></li>
+    </ul>
+
+    <h2 id="um">Link 1</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies tellus vel tincidunt euismod. Nulla facilisi. Maecenas lacinia ante ac lectus cursus condimentum. Donec condimentum ipsum id purus maximus facilisis. Vivamus id accumsan nisi. Morbi placerat est non libero dictum egestas. Nullam hendrerit ornare mollis. Nam blandit sapien eget ullamcorper porta. Pellentesque sed ultricies diam. Suspendisse imperdiet, velit eget vulputate tempus, felis massa efficitur dui, at varius felis mauris nec ipsum. Donec sem elit, rhoncus quis orci at, gravida consequat eros. Aenean auctor felis et rhoncus lacinia. Curabitur dolor enim, pharetra id lacinia vitae, sollicitudin id eros. Curabitur dui nulla, gravida a turpis vel, pharetra venenatis enim.
+    </p>
+
+    <h2 id="dois">Link 2</h2>
+    <p>
+        Nulla tristique, dui ut ornare lobortis, mi felis fringilla lorem, eu elementum tellus diam sed risus. Nulla in nulla varius, laoreet libero eget, efficitur ante. Sed tincidunt elementum eros, nec efficitur felis pulvinar eu. Maecenas tempor nisl nec mauris porttitor fermentum. Mauris nec euismod lorem. Nam quis euismod justo. In ultricies leo risus, a imperdiet purus dignissim quis.
+    </p>
+
+    <h2 id="tres">Link 3</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac orci dictum velit imperdiet consequat. Integer id mattis lectus. Pellentesque vehicula ullamcorper dolor id vehicula. Pellentesque ornare nisi ut sollicitudin varius. Suspendisse tellus tellus, bibendum ac venenatis vel, pharetra sed justo. Nulla malesuada nisi felis, eu rhoncus nisl malesuada ut. Sed sed commodo odio, gravida tincidunt nulla. Mauris sollicitudin turpis nec maximus mollis. In laoreet mauris non ante facilisis, sodales molestie sapien volutpat. Curabitur luctus est nec sem faucibus, eget rhoncus neque aliquam. In magna ex, pretium at semper non, mattis non orci.
+    </p>
+
+    <h2 id="quatro">Link 4</h2>
+    <p>
+        In commodo, est ut elementum sollicitudin, augue tellus consequat eros, eu fermentum massa lacus ut nibh. Nulla eu enim mollis, molestie augue et, placerat nunc. Duis rutrum, risus ut convallis accumsan, sapien risus finibus nisi, a aliquet quam turpis et erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer ligula ante, tempor vitae augue ut, interdum facilisis nibh. Nam non sem velit. Nunc sem nisl, ornare eget maximus eget, cursus a est. Donec vel dui volutpat, tristique nunc ut, sagittis ligula.
+    </p>
+
+    <h2 id="cinco">Link 5</h2>
+    <p>
+        Mauris sit amet tincidunt nisi. Sed pretium massa quis mollis hendrerit. Nullam a tristique dolor. In ante lorem, lobortis id venenatis in, ultrices at mauris. Duis efficitur, dolor vel placerat rutrum, enim magna lobortis ipsum, nec pulvinar turpis dui vel quam. Nullam diam est, maximus volutpat lacinia non, sollicitudin vitae risus. Morbi placerat cursus diam, mollis mollis magna blandit sed. Morbi vitae ultrices lorem, sit amet gravida tellus. Cras rhoncus posuere tincidunt. Quisque vehicula tellus bibendum neque interdum iaculis. Donec suscipit nunc sit amet nisl ultrices, in placerat eros tincidunt. Proin non tincidunt dolor. Sed at efficitur dolor, facilisis congue diam. Suspendisse nec mi eget lectus molestie scelerisque. Nullam id ligula felis.
+    </p>
+
+    <!-- JQuery (caso se use plugins JavaScript do Bootstrap) -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //fallback para jQuery
+        //<![CDATA[
+        (window.jQuery) || document.write('<script type="text/javascript" src="bootstrap/js/jquery.min.js"><\/script>'); //]]>
+    </script>
+    <script type="text/javascript">
+        <!-- Bootlint para informar bugs -->
+        javascript: (function () {
+            var s = document.createElement("script");
+            s.onload = function () {
+                bootlint.showLintReportForCurrentDocument([]);
+            };
+            s.src = "https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";
+            document.body.appendChild(s)
+        })();
+    </script>
+
+    <!-- Scripts para fazer funcionar o menu -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../bootstrap/js/jquery.min.js"><\/script>')
+    </script>
+
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js">
+    </script>
+</body>
+
+</html>

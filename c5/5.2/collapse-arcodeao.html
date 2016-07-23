@@ -19,11 +19,27 @@
 </head>
 
 <body>
-    <div class="alert alert-dismissible" role="alert">
-        <button type="button" class="close" data-dismiss="alert">x</button>
-        <h4>Alerta!</h4>
-        <p>Você têm certeza que deseja deletar o arquivo?</p>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingLaranja">
+                <h4 class="panel-title">
+                <a class="btn btn-info" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseLaranja" aria-expanded="true" aria-controls="collapseLaranja">Laranja</a>
+            </h4>
+            </div>
+
+            <div id="collapseLaranja" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingLaranja">
+                <div class="panel-body">
+                    <p>
+                        <img src="../../img/laranja.png" alt="laranja" class="pull-left">A laranja...
+                    </p>
+                    <small>Fonte: wikipedia</small>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default"></div>
+        <div class="panel panel-default"></div>
     </div>
+
     <!-- JQuery (caso se use plugins JavaScript do Bootstrap) -->
     <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -51,10 +67,6 @@
 
     <!-- Bootstrap -->
     <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js">
-    </script>
-    <script type="text/javascript">
-        $('alert').alert();
-        $('alert').alert('close');
     </script>
 </body>
 

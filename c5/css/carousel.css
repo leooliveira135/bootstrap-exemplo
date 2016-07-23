@@ -1,0 +1,15 @@
+h2 {
+    font-size: 20px;
+}
+
+.carousel-caption {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 0 5px 30px 5px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
