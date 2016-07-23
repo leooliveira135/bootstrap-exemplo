@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estas 3 meta tags devem obrigatoriamente ser as primeiras na seção head -->
+    <!-- As demais devem vir depois delas -->
+    <title>Template mínimo para uso do Bootstrap</title>
+    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- CSS do Bootstrap -->
+    <!-- HTML5 shim and Respond.js para suporte dos elementos HTML5 e das media queries ao IE8 -->
+    <!-- Atenção: Respond.js não funciona em páginas carregadas com o uso do protocolo file:// -->
+    <!-- [if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="../css/datatoggle.css" rel="stylesheet">
+</head>
+
+<body>
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab">Home</a></li>
+        <li role="presentation"><a href="#portfolio" aria-controls="portfolio" role="tab">Portfólio</a></li>
+        <li role="presentation"><a href="#artigos" aria-controls="artigos" role="tab">Artigos</a></li>
+        <li role="presentation"><a href="#contato" aria-controls="contato" role="tab">Contato</a></li>
+    </ul>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="home">
+            <h4>Home</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum velit justo, sit amet egestas purus ultricies ut. Pellentesque quis ex dui. Nulla in auctor est. Curabitur rhoncus facilisis erat, quis porta dui consequat ac. Nam velit nibh, venenatis quis lacus quis, tincidunt scelerisque ipsum. Aliquam at urna viverra, varius tortor eleifend, consectetur eros. Mauris at quam ante. Morbi ex massa, scelerisque a mauris ac, dapibus sollicitudin nulla. Ut vel pretium lorem, ac pulvinar nulla. Pellentesque quam tellus, varius non lectus tristique, pulvinar tincidunt erat.</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="portfolio">
+            <h4>Portfólio</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum velit justo, sit amet egestas purus ultricies ut. Pellentesque quis ex dui. Nulla in auctor est. Curabitur rhoncus facilisis erat, quis porta dui consequat ac. Nam velit nibh, venenatis quis lacus quis, tincidunt scelerisque ipsum. Aliquam at urna viverra, varius tortor eleifend, consectetur eros. Mauris at quam ante. Morbi ex massa, scelerisque a mauris ac, dapibus sollicitudin nulla. Ut vel pretium lorem, ac pulvinar nulla. Pellentesque quam tellus, varius non lectus tristique, pulvinar tincidunt erat.</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="artigos">
+            <h4>Artigos</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum velit justo, sit amet egestas purus ultricies ut. Pellentesque quis ex dui. Nulla in auctor est. Curabitur rhoncus facilisis erat, quis porta dui consequat ac. Nam velit nibh, venenatis quis lacus quis, tincidunt scelerisque ipsum. Aliquam at urna viverra, varius tortor eleifend, consectetur eros. Mauris at quam ante. Morbi ex massa, scelerisque a mauris ac, dapibus sollicitudin nulla. Ut vel pretium lorem, ac pulvinar nulla. Pellentesque quam tellus, varius non lectus tristique, pulvinar tincidunt erat.</p>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="contato">
+            <h4>Contato</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum velit justo, sit amet egestas purus ultricies ut. Pellentesque quis ex dui. Nulla in auctor est. Curabitur rhoncus facilisis erat, quis porta dui consequat ac. Nam velit nibh, venenatis quis lacus quis, tincidunt scelerisque ipsum. Aliquam at urna viverra, varius tortor eleifend, consectetur eros. Mauris at quam ante. Morbi ex massa, scelerisque a mauris ac, dapibus sollicitudin nulla. Ut vel pretium lorem, ac pulvinar nulla. Pellentesque quam tellus, varius non lectus tristique, pulvinar tincidunt erat.</p>
+        </div>
+    </div>
+    <!-- JQuery (caso se use plugins JavaScript do Bootstrap) -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //fallback para jQuery
+        //<![CDATA[
+        (window.jQuery) || document.write('<script type="text/javascript" src="bootstrap/js/jquery.min.js"><\/script>'); //]]>
+    </script>
+    <script type="text/javascript">
+        <!-- Bootlint para informar bugs -->
+        javascript: (function () {
+            var s = document.createElement("script");
+            s.onload = function () {
+                bootlint.showLintReportForCurrentDocument([]);
+            };
+            s.src = "https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";
+            document.body.appendChild(s)
+        })();
+    </script>
+
+    <!-- Scripts para fazer funcionar o menu -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../bootstrap/js/jquery.min.js"><\/script>')
+    </script>
+
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/datatoggle.js"></script>
+</body>
+
+</html>

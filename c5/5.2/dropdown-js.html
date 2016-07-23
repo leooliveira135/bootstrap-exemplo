@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estas 3 meta tags devem obrigatoriamente ser as primeiras na seção head -->
+    <!-- As demais devem vir depois delas -->
+    <title>Template mínimo para uso do Bootstrap</title>
+    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- CSS do Bootstrap -->
+    <!-- HTML5 shim and Respond.js para suporte dos elementos HTML5 e das media queries ao IE8 -->
+    <!-- Atenção: Respond.js não funciona em páginas carregadas com o uso do protocolo file:// -->
+    <!-- [if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barraDataToggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Automóveis</a>
+        </div>
+        <div class="collapse navbar-collapse" id="barraDataToggle">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Ford</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Renault<span class="caret" id="abreDropdown1"></span></a>
+                    <ul class="dropdown-menu" role="menu" id="dropdown1">
+                        <li><a href="#">Clio</a></li>
+                        <li><a href="#">Logan</a></li>
+                        <li><a href="#">Sandero</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Outros</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Volkswagen<span class="caret" id="abreDropdown2"></span></a>
+                    <ul class="dropdown-menu" role="menu" id="dropdown2">
+                        <li><a href="#">Novo Gol</a></li>
+                        <li><a href="#">Gol G4</a></li>
+                        <li><a href="#">Fox</a></li>
+                        <li><a href="#">Crossfox</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Outros</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- JQuery (caso se use plugins JavaScript do Bootstrap) -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //fallback para jQuery
+        //<![CDATA[
+        (window.jQuery) || document.write('<script type="text/javascript" src="bootstrap/js/jquery.min.js"><\/script>'); //]]>
+    </script>
+    <script type="text/javascript">
+        <!-- Bootlint para informar bugs -->
+        javascript: (function () {
+            var s = document.createElement("script");
+            s.onload = function () {
+                bootlint.showLintReportForCurrentDocument([]);
+            };
+            s.src = "https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";
+            document.body.appendChild(s)
+        })();
+    </script>
+
+    <!-- Scripts para fazer funcionar o menu -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../bootstrap/js/jquery.min.js"><\/script>')
+    </script>
+
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $('.dropdown-toggle').dropdown().css('color', '#f00');
+        $('#janelaModal').modal({
+            keyboard: false
+        });
+        $('body').off('data-api');
+        $('body').off('dropdown.data-api');
+    </script>
+    <script src="../js/dropdown.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+body {
+    background: #ccc;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.tab-content {
+    height: 250px;
+    overflow-y: auto;
+    border: 3px solid #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.tab-content h2 {
+    margin-top: 3px;
+}
+
+#home,
+#portfolio,
+#artigos,
+#contato {
+    color: #fff;
+    padding: 0 15px;
+}
+
+#home {
+    background: #333;
+}
+
+#portfolio {
+    background: #930;
+}
+
+#artigos {
+    background: #030;
+}
+
+#contato {
+    background: #036;
+}
+
+.nav-tabs > li > a {
+    background: #e0dbdb;
+}

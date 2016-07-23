@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Estas 3 meta tags devem obrigatoriamente ser as primeiras na seção head -->
+    <!-- As demais devem vir depois delas -->
+    <title>Template mínimo para uso do Bootstrap</title>
+    <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- CSS do Bootstrap -->
+    <!-- HTML5 shim and Respond.js para suporte dos elementos HTML5 e das media queries ao IE8 -->
+    <!-- Atenção: Respond.js não funciona em páginas carregadas com o uso do protocolo file:// -->
+    <!-- [if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="../css/scrollspy.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid" id="home">
+        <nav class="navbar navbar-default navbar-fixed-top" id="barraNavegacao">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barraFixaTop">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Site</a>
+                </div>
+                <div class="collapse navbar-collapse" id="barraFixaTop">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#home">Home<span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="#portfolio">Portfólio<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#materias">Matérias</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="containerConteudo" data-spy="scroll" data-target="#barraNavegacao">
+            <div id="portfolio">
+                <h2>Portfólio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi eleifend, purus quis laoreet faucibus, ante augue malesuada mi, id rhoncus augue lorem eget elit. Ut sollicitudin sodales purus. Phasellus libero felis, blandit nec, commodo ut, imperdiet ut, nibh. Suspendisse potenti. Donec ullamcorper cursus dolor. Duis vitae ipsum. Maecenas dapibus hendrerit diam. Morbi varius, massa id pretium accumsan, nunc lorem congue libero, ut euismod metus libero id nulla. Duis posuere odio sed velit vulputate venenatis. Suspendisse et dui ac metus auctor fringilla. Curabitur interdum augue a pede.</p>
+
+                <p>Curabitur hendrerit erat ut augue. Cras gravida. Mauris consequat aliquam leo. Aenean non tortor id metus aliquet consectetuer. Quisque sodales lectus ac orci. Donec eleifend fringilla mi. Vivamus vel massa. Aenean interdum pellentesque sem. Nulla pellentesque felis et tortor. Duis cursus, dui non dictum tincidunt, wisi ipsum mollis wisi, nec ornare velit ipsum eget enim. In sed felis. Phasellus condimentum sodales nulla. Etiam orci leo, rutrum malesuada, congue vel, fringilla vitae, lorem. Pellentesque ligula.</p>
+
+                <p>Pellentesque sapien. Sed purus sapien, eleifend ac, volutpat ac, molestie eget, massa. Nam a nibh. Nulla facilisi. Mauris ac metus. Donec porttitor, turpis et sollicitudin vehicula, nunc dui dignissim arcu, euismod hendrerit arcu est quis elit. In quam tellus, auctor in, dignissim at, euismod gravida, lacus. Nullam dui. Donec sit amet eros varius lacus laoreet vestibulum. Phasellus vestibulum vehicula velit. Vestibulum malesuada lectus eu urna.</p>
+
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam in eros. Aliquam mattis est et arcu. Duis scelerisque tempus diam. Morbi accumsan, dui sed auctor tincidunt, orci wisi imperdiet lacus, ut tincidunt arcu wisi vitae erat. Curabitur a lacus. Suspendisse odio nulla, elementum vitae, laoreet ac, rhoncus ut, lectus. Phasellus a tellus eleifend odio pellentesque condimentum. Etiam hendrerit metus ut mi. Quisque purus lorem, dictum dapibus, lacinia in, consequat non, diam. Nulla vulputate urna ac ligula. Mauris consectetuer lorem at dui. Phasellus semper risus sed ipsum varius laoreet. Ut tempus nisl eget risus. Nam felis.</p>
+
+                <p>Nulla facilisi. Duis euismod, lacus et cursus volutpat, dui arcu porttitor diam, at gravida nibh justo non erat. Cras vel sem eget erat pretium facilisis. Nullam et diam sed diam congue nonummy. Sed auctor dignissim turpis. Suspendisse fringilla diam eu urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla semper augue et lorem commodo vehicula. Cras sagittis dictum nisl. Suspendisse dapibus euismod libero. Nulla vel wisi venenatis est ornare placerat. Proin purus. In vehicula pede quis erat dapibus iaculis. Aenean at neque eu odio pellentesque molestie. Nullam quis justo. Duis porta, nisl faucibus porttitor pulvinar, neque erat tristique est, in fringilla leo neque et purus. Maecenas pellentesque lectus in odio.</p>
+
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sapien augue, euismod nec, aliquet nec, porttitor ut, libero. In id wisi vel diam pellentesque blandit. Duis eu magna eget est molestie dictum. Aenean vitae ipsum gravida nisl sodales egestas. Integer et quam. In et libero. Vestibulum quis dolor. Duis blandit suscipit tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur eu felis. Phasellus wisi. Suspendisse potenti. Morbi libero odio, dapibus eu, commodo non, feugiat eget, metus. Suspendisse tempus purus et lorem. Quisque dictum malesuada felis. Quisque condimentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin tincidunt libero non mi. Ut velit est, accumsan ut, euismod eget, venenatis nec, leo.</p>
+
+                <p>Pellentesque tortor tellus, faucibus nec, convallis at, tempor et, turpis. Aenean lacinia, enim non vehicula pharetra, neque orci pulvinar massa, vel sodales risus risus sed nibh. Integer dignissim felis eu ante. Donec nisl. Aliquam bibendum, lacus in posuere tincidunt, nisl metus porta enim, et dignissim ante sapien vel augue. Morbi fringilla, est in dignissim elementum, dolor tellus semper neque, non scelerisque massa mi sed ante. Sed ut eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin ut metus. Fusce blandit risus. Maecenas et dolor. Proin ultricies erat a dolor. Fusce id ligula ut erat gravida venenatis. Donec mi lorem, laoreet ac, aliquet eget, luctus quis, wisi. Ut rhoncus tempus libero. Nunc convallis erat eget wisi. Aliquam condimentum mollis massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+
+            <div id="materias">
+                <h2>Matérias</h2>
+
+                <p>Curabitur hendrerit erat ut augue. Cras gravida. Mauris consequat aliquam leo. Aenean non tortor id metus aliquet consectetuer. Quisque sodales lectus ac orci. Donec eleifend fringilla mi. Vivamus vel massa. Aenean interdum pellentesque sem. Nulla pellentesque felis et tortor. Duis cursus, dui non dictum tincidunt, wisi ipsum mollis wisi, nec ornare velit ipsum eget enim. In sed felis. Phasellus condimentum sodales nulla. Etiam orci leo, rutrum malesuada, congue vel, fringilla vitae, lorem. Pellentesque ligula.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi eleifend, purus quis laoreet faucibus, ante augue malesuada mi, id rhoncus augue lorem eget elit. Ut sollicitudin sodales purus. Phasellus libero felis, blandit nec, commodo ut, imperdiet ut, nibh. Suspendisse potenti. Donec ullamcorper cursus dolor. Duis vitae ipsum. Maecenas dapibus hendrerit diam. Morbi varius, massa id pretium accumsan, nunc lorem congue libero, ut euismod metus libero id nulla. Duis posuere odio sed velit vulputate venenatis. Suspendisse et dui ac metus auctor fringilla. Curabitur interdum augue a pede.</p>
+
+                <p>Pellentesque sapien. Sed purus sapien, eleifend ac, volutpat ac, molestie eget, massa. Nam a nibh. Nulla facilisi. Mauris ac metus. Donec porttitor, turpis et sollicitudin vehicula, nunc dui dignissim arcu, euismod hendrerit arcu est quis elit. In quam tellus, auctor in, dignissim at, euismod gravida, lacus. Nullam dui. Donec sit amet eros varius lacus laoreet vestibulum. Phasellus vestibulum vehicula velit. Vestibulum malesuada lectus eu urna.</p>
+
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam in eros. Aliquam mattis est et arcu. Duis scelerisque tempus diam. Morbi accumsan, dui sed auctor tincidunt, orci wisi imperdiet lacus, ut tincidunt arcu wisi vitae erat. Curabitur a lacus. Suspendisse odio nulla, elementum vitae, laoreet ac, rhoncus ut, lectus. Phasellus a tellus eleifend odio pellentesque condimentum. Etiam hendrerit metus ut mi. Quisque purus lorem, dictum dapibus, lacinia in, consequat non, diam. Nulla vulputate urna ac ligula. Mauris consectetuer lorem at dui. Phasellus semper risus sed ipsum varius laoreet. Ut tempus nisl eget risus. Nam felis.</p>
+
+                <p>Nulla facilisi. Duis euismod, lacus et cursus volutpat, dui arcu porttitor diam, at gravida nibh justo non erat. Cras vel sem eget erat pretium facilisis. Nullam et diam sed diam congue nonummy. Sed auctor dignissim turpis. Suspendisse fringilla diam eu urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla semper augue et lorem commodo vehicula. Cras sagittis dictum nisl. Suspendisse dapibus euismod libero. Nulla vel wisi venenatis est ornare placerat. Proin purus. In vehicula pede quis erat dapibus iaculis. Aenean at neque eu odio pellentesque molestie. Nullam quis justo. Duis porta, nisl faucibus porttitor pulvinar, neque erat tristique est, in fringilla leo neque et purus. Maecenas pellentesque lectus in odio.</p>
+
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sapien augue, euismod nec, aliquet nec, porttitor ut, libero. In id wisi vel diam pellentesque blandit. Duis eu magna eget est molestie dictum. Aenean vitae ipsum gravida nisl sodales egestas. Integer et quam. In et libero. Vestibulum quis dolor. Duis blandit suscipit tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur eu felis. Phasellus wisi. Suspendisse potenti. Morbi libero odio, dapibus eu, commodo non, feugiat eget, metus. Suspendisse tempus purus et lorem. Quisque dictum malesuada felis. Quisque condimentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin tincidunt libero non mi. Ut velit est, accumsan ut, euismod eget, venenatis nec, leo.</p>
+
+                <p>Pellentesque tortor tellus, faucibus nec, convallis at, tempor et, turpis. Aenean lacinia, enim non vehicula pharetra, neque orci pulvinar massa, vel sodales risus risus sed nibh. Integer dignissim felis eu ante. Donec nisl. Aliquam bibendum, lacus in posuere tincidunt, nisl metus porta enim, et dignissim ante sapien vel augue. Morbi fringilla, est in dignissim elementum, dolor tellus semper neque, non scelerisque massa mi sed ante. Sed ut eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin ut metus. Fusce blandit risus. Maecenas et dolor. Proin ultricies erat a dolor. Fusce id ligula ut erat gravida venenatis. Donec mi lorem, laoreet ac, aliquet eget, luctus quis, wisi. Ut rhoncus tempus libero. Nunc convallis erat eget wisi. Aliquam condimentum mollis massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+
+            <div id="contato">
+                <h2>Contato</h2>
+
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam in eros. Aliquam mattis est et arcu. Duis scelerisque tempus diam. Morbi accumsan, dui sed auctor tincidunt, orci wisi imperdiet lacus, ut tincidunt arcu wisi vitae erat. Curabitur a lacus. Suspendisse odio nulla, elementum vitae, laoreet ac, rhoncus ut, lectus. Phasellus a tellus eleifend odio pellentesque condimentum. Etiam hendrerit metus ut mi. Quisque purus lorem, dictum dapibus, lacinia in, consequat non, diam. Nulla vulputate urna ac ligula. Mauris consectetuer lorem at dui. Phasellus semper risus sed ipsum varius laoreet. Ut tempus nisl eget risus. Nam felis.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi eleifend, purus quis laoreet faucibus, ante augue malesuada mi, id rhoncus augue lorem eget elit. Ut sollicitudin sodales purus. Phasellus libero felis, blandit nec, commodo ut, imperdiet ut, nibh. Suspendisse potenti. Donec ullamcorper cursus dolor. Duis vitae ipsum. Maecenas dapibus hendrerit diam. Morbi varius, massa id pretium accumsan, nunc lorem congue libero, ut euismod metus libero id nulla. Duis posuere odio sed velit vulputate venenatis. Suspendisse et dui ac metus auctor fringilla. Curabitur interdum augue a pede.</p>
+
+                <p>Curabitur hendrerit erat ut augue. Cras gravida. Mauris consequat aliquam leo. Aenean non tortor id metus aliquet consectetuer. Quisque sodales lectus ac orci. Donec eleifend fringilla mi. Vivamus vel massa. Aenean interdum pellentesque sem. Nulla pellentesque felis et tortor. Duis cursus, dui non dictum tincidunt, wisi ipsum mollis wisi, nec ornare velit ipsum eget enim. In sed felis. Phasellus condimentum sodales nulla. Etiam orci leo, rutrum malesuada, congue vel, fringilla vitae, lorem. Pellentesque ligula.</p>
+
+                <p>Pellentesque sapien. Sed purus sapien, eleifend ac, volutpat ac, molestie eget, massa. Nam a nibh. Nulla facilisi. Mauris ac metus. Donec porttitor, turpis et sollicitudin vehicula, nunc dui dignissim arcu, euismod hendrerit arcu est quis elit. In quam tellus, auctor in, dignissim at, euismod gravida, lacus. Nullam dui. Donec sit amet eros varius lacus laoreet vestibulum. Phasellus vestibulum vehicula velit. Vestibulum malesuada lectus eu urna.</p>
+
+                <p>Nulla facilisi. Duis euismod, lacus et cursus volutpat, dui arcu porttitor diam, at gravida nibh justo non erat. Cras vel sem eget erat pretium facilisis. Nullam et diam sed diam congue nonummy. Sed auctor dignissim turpis. Suspendisse fringilla diam eu urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla semper augue et lorem commodo vehicula. Cras sagittis dictum nisl. Suspendisse dapibus euismod libero. Nulla vel wisi venenatis est ornare placerat. Proin purus. In vehicula pede quis erat dapibus iaculis. Aenean at neque eu odio pellentesque molestie. Nullam quis justo. Duis porta, nisl faucibus porttitor pulvinar, neque erat tristique est, in fringilla leo neque et purus. Maecenas pellentesque lectus in odio.</p>
+
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sapien augue, euismod nec, aliquet nec, porttitor ut, libero. In id wisi vel diam pellentesque blandit. Duis eu magna eget est molestie dictum. Aenean vitae ipsum gravida nisl sodales egestas. Integer et quam. In et libero. Vestibulum quis dolor. Duis blandit suscipit tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur eu felis. Phasellus wisi. Suspendisse potenti. Morbi libero odio, dapibus eu, commodo non, feugiat eget, metus. Suspendisse tempus purus et lorem. Quisque dictum malesuada felis. Quisque condimentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin tincidunt libero non mi. Ut velit est, accumsan ut, euismod eget, venenatis nec, leo.</p>
+
+                <p>Pellentesque tortor tellus, faucibus nec, convallis at, tempor et, turpis. Aenean lacinia, enim non vehicula pharetra, neque orci pulvinar massa, vel sodales risus risus sed nibh. Integer dignissim felis eu ante. Donec nisl. Aliquam bibendum, lacus in posuere tincidunt, nisl metus porta enim, et dignissim ante sapien vel augue. Morbi fringilla, est in dignissim elementum, dolor tellus semper neque, non scelerisque massa mi sed ante. Sed ut eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin ut metus. Fusce blandit risus. Maecenas et dolor. Proin ultricies erat a dolor. Fusce id ligula ut erat gravida venenatis. Donec mi lorem, laoreet ac, aliquet eget, luctus quis, wisi. Ut rhoncus tempus libero. Nunc convallis erat eget wisi. Aliquam condimentum mollis massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery (caso se use plugins JavaScript do Bootstrap) -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        //fallback para jQuery
+        //<![CDATA[
+        (window.jQuery) || document.write('<script type="text/javascript" src="bootstrap/js/jquery.min.js"><\/script>'); //]]>
+    </script>
+    <script type="text/javascript">
+        <!-- Bootlint para informar bugs -->
+        javascript: (function () {
+            var s = document.createElement("script");
+            s.onload = function () {
+                bootlint.showLintReportForCurrentDocument([]);
+            };
+            s.src = "https://maxcdn.bootstrapcdn.com/bootlint/latest/bootlint.min.js";
+            document.body.appendChild(s)
+        })();
+    </script>
+
+    <!-- Scripts para fazer funcionar o menu -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../bootstrap/js/jquery.min.js"><\/script>')
+    </script>
+
+    <!-- Bootstrap -->
+    <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/scrollspy-body.js"></script>
+</body>
+
+</html>

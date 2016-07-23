@@ -1,0 +1,15 @@
+body {
+    padding-top: 50px;
+    background: #ccc;
+}
+
+#portfolio,
+#materias,
+#contato {
+    padding-top: 50px;
+}
+
+#containerConteudo {
+    height: 400px;
+    overflow-y: scroll;
+}
