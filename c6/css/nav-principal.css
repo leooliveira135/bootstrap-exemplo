@@ -1,0 +1,19 @@
+#barraPrincipal {
+    margin-bottom: 20px;
+    background: #7bb3c1!important;
+}
+
+#barraPrincipal li a {
+    font-size: 80%;
+    text-transform: uppercase;
+    padding: 5px;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#barraPrincipal li ul li a {
+    color: #333;
+}

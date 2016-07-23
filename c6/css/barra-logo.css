@@ -1,0 +1,13 @@
+body {
+    background: #f5f5f5 url(../../img/cabecalho.png) repeat-x;
+}
+
+#barra1 {
+    background: #64a7b7;
+    padding: 20px;
+}
+
+.texto-logo {
+    font-size: 120%;
+    color: #fff;
+}

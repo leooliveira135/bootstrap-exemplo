@@ -1,0 +1,22 @@
+#nav-superior {
+    background: #fff;
+}
+
+#nav-superior li a {
+    padding: 2px 4px;
+}
+
+#nav-superior li a:hover {
+    color: #00f;
+}
+
+@media(min-width: 1px) {
+    .navbar {
+        min-height: auto;
+        margin: 0;
+        border: none;
+    }
+    .navbar li a {
+        color: #333;
+    }
+}

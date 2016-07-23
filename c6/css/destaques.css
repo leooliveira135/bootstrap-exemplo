@@ -1,0 +1,47 @@
+.destages img {
+    width: 20%;
+    height: auto;
+}
+
+.destaques figcaption {
+    font-size: 130%;
+    background: #fff;
+    min-height: 100px;
+    padding: 10px 20px;
+}
+
+.bc1 {
+    border-bottom: 6px solid #e1734a;
+}
+
+.cc1 {
+    display: block;
+    color: #e1734a;
+}
+
+.bc2 {
+    border-bottom: 6px solid #8d9b31;
+}
+
+.cc2 {
+    display: block;
+    color: #8d9b31;
+}
+
+.bc3 {
+    border-bottom: 6px solid #4476ab;
+}
+
+.cc3 {
+    display: block;
+    color: #44476ab;
+}
+
+.bc4 {
+    border-bottom: 6px solid #9c6496;
+}
+
+.cc4 {
+    display: block;
+    color: #9c6496;
+}

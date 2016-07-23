@@ -1,0 +1,50 @@
+.noticias {
+    position: relative;
+    background: #333;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.noticias h3 {
+    font-size: 90%;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.noticias a {
+    display: block;
+    font-size: 150%;
+    color: #fff;
+}
+
+.noticias a:hover {
+    color: #ccc;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:mais-noticias {
+    width: 160px;
+    ;
+    font-size: 100%;
+    text-align: center;
+    background: #666;
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -80px;
+}
+
+@media screen and (max-width:1200px) {
+    body {
+        background-image: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+    form[role="search"] {
+        float: none!important;
+    }
+}
